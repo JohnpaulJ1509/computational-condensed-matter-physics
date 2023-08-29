@@ -1,9 +1,0 @@
-&LR_INPUT
-  prefix = 'KDP'
-  outdir = './outdir'
-/
-
-&LR_CONTROL
-  itermax = 500
-  ipol = 4
-/
