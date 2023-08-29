@@ -1,8 +1,0 @@
-&DOS
-    prefix	= 'KDP'
-    outdir	= './outdir/'
-    fildos 	= 'KDP.dos.dat'
-    bz_sum 	= 'tetrahedra'
-    emin	= -9.0	
-    emax	= 16.0
-/
