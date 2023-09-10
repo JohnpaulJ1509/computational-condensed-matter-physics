@@ -1,0 +1,6 @@
+&DOS
+    
+    prefix ='KDP'
+    outdir ='./outdir/'
+    fildos ='KDP.dos.dat'
+/
