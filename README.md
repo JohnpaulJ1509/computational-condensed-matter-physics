@@ -1,2 +1,2 @@
 # computational-condensed-matter-physics
-computational condensed matter physics repository is a documentation of learning Python for computational condensed matter, Quantum ESPRESSO, VESTA, ORCA, Avogadro, and other software and packages. 
+"Computational condensed matter physics" repository is a documentation for learning  computational condensed matter physics using various software and packages like Quantum ESPRESSO, VESTA, ORCA, Avogadro, XcrySDen, ELK code, etc..
