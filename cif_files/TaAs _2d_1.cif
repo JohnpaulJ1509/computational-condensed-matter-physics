@@ -1,0 +1,53 @@
+
+#======================================================================
+# CRYSTAL DATA
+#----------------------------------------------------------------------
+data_VESTA_phase_1
+
+_chemical_name_common                  'Ta4 As4'
+_cell_length_a                         13.774507
+_cell_length_b                         3.443627
+_cell_length_c                         46.943531
+_cell_angle_alpha                      90.000000
+_cell_angle_beta                       90.000000
+_cell_angle_gamma                      90.000000
+_cell_volume                           2226.731553
+_space_group_name_H-M_alt              'P 1'
+_space_group_IT_number                 1
+
+loop_
+_space_group_symop_operation_xyz
+   'x, y, z'
+   'x, y, z+1/4'
+   'x, y, z+1/2'
+   'x, y, z+3/4'
+   'x+1/4, y, z'
+   'x+1/4, y, z+1/4'
+   'x+1/4, y, z+1/2'
+   'x+1/4, y, z+3/4'
+   'x+1/2, y, z'
+   'x+1/2, y, z+1/4'
+   'x+1/2, y, z+1/2'
+   'x+1/2, y, z+3/4'
+   'x+3/4, y, z'
+   'x+3/4, y, z+1/4'
+   'x+3/4, y, z+1/2'
+   'x+3/4, y, z+3/4'
+
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_type_symbol
+   Ta0        1.0     0.000000     0.000000     0.187492    Uiso  ? Ta
+   Ta0        1.0     0.125000     0.500000     0.062492    Uiso  ? Ta
+   Ta0        1.0     0.000000     0.500000     0.249992    Uiso  ? Ta
+   Ta0        1.0     0.125000     0.000000     0.124992    Uiso  ? Ta
+   As1        1.0     0.000000     0.000000     0.083158    Uiso  ? As
+   As1        1.0     0.125000     0.500000     0.208158    Uiso  ? As
+   As1        1.0     0.000000     0.500000     0.145658    Uiso  ? As
+   As1        1.0     0.125000     0.000000     0.020658    Uiso  ? As
