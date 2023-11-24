@@ -1,0 +1,77 @@
+&CONTROL
+    calculation = "bands"
+    max_seconds =  8.64000e+04
+    pseudo_dir  = "C:\Users\John Paul J\.burai\.pseudopot"
+/
+
+&SYSTEM
+    a           =  5.66100e+00
+    c           =  4.71200e+00
+    degauss     =  1.00000e-02
+    ecutrho     =  2.25000e+02
+    ecutwfc     =  2.50000e+01
+    ibrav       = 6
+    nat         = 20
+    nbnd        = 80
+    ntyp        = 4
+    occupations = "smearing"
+    smearing    = "gaussian"
+/
+
+&ELECTRONS
+    conv_thr         =  1.00000e-06
+    electron_maxstep = 200
+    mixing_beta      =  7.00000e-01
+    startingpot      = "atomic"
+    startingwfc      = "atomic+random"
+/
+
+&BANDS
+    lsym           = .FALSE.
+    spin_component = 1
+/
+
+K_POINTS {tpiba_b}
+12
+gG     20
+X      20
+M      20
+gG     20
+Z      20
+R      20
+A      20
+Z      0
+X      20
+R      0
+M      20
+A      0
+
+ATOMIC_SPECIES
+C      12.01070  C.pbe-rrkjus.UPF
+O      15.99940  O.pbe-rrkjus.UPF
+N      14.00674  N.pbe-rrkjus.UPF
+H       1.00794  H.pbe-rrkjus.UPF
+
+ATOMIC_POSITIONS {angstrom}
+C       0.000000   2.830500   1.569567
+C       2.830500   5.661000   3.142433
+C       2.830500   0.000000   3.142433
+C       5.661000   2.830500   1.569567
+O       0.000000   2.830500   2.812173
+O       2.830500   5.661000   1.899827
+O       2.830500   0.000000   1.899827
+O       5.661000   2.830500   2.812173
+N       0.815127   3.645627   0.863474
+N       2.015373   0.815127   3.848526
+N       4.845873   2.015373   0.863474
+N       3.645627   4.845873   3.848526
+H       1.427851   4.258351   1.337836
+H       1.402649   1.427851   3.374164
+H       4.233149   1.402649   1.337836
+H       4.258351   4.233149   3.374164
+H       0.772834   3.603334   4.582015
+H       2.057666   0.772834   0.129985
+H       4.888166   2.057666   4.582015
+H       3.603334   4.888166   0.129985
+
+
