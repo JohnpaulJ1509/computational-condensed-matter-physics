@@ -1,0 +1,42 @@
+
+#======================================================================
+# CRYSTAL DATA
+#----------------------------------------------------------------------
+data_VESTA_phase_1
+
+_chemical_name_common                  'XCrySDen XSF file'
+_cell_length_a                         10.723200
+_cell_length_b                         11.574400
+_cell_length_c                         7.466110
+_cell_angle_alpha                      90.000000
+_cell_angle_beta                       130.420029
+_cell_angle_gamma                      90.000000
+_cell_volume                           705.472009
+_space_group_name_H-M_alt              'P 1'
+_space_group_IT_number                 1
+
+loop_
+_space_group_symop_operation_xyz
+   'x, y, z'
+
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_type_symbol
+   O1         1.0     0.893121     0.650689     0.203039    Uiso  ? O
+   O2         1.0     0.976921     0.474679     0.261839    Uiso  ? O
+   N1         1.0     0.870421     0.546169     0.201039    Uiso  ? N
+   C1         1.0     0.420938     0.426881     0.984937    Uiso  ? C
+   C2         1.0     0.447318     0.546779     0.989337    Uiso  ? C
+   C3         1.0     0.595841     0.584881     0.060040    Uiso  ? C
+   H1         1.0     0.615001     0.665301     0.062700    Uiso  ? H
+   C4         1.0     0.717321     0.505281     0.127340    Uiso  ? C
+   C5         1.0     0.692641     0.386881     0.121540    Uiso  ? C
+   H2         1.0     0.775701     0.333800     0.165000    Uiso  ? H
+   C6         1.0     0.545221     0.348180     0.051340    Uiso  ? C
+   H3         1.0     0.527001     0.267600     0.047500    Uiso  ? H
