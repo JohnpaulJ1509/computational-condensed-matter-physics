@@ -1,0 +1,76 @@
+&CONTROL
+    calculation = "nscf"
+    max_seconds =  8.64000e+04
+    outdir      = "./"
+    prefix      = "espresso"
+    pseudo_dir  = "C:\Users\John Paul J\.burai\.pseudopot"
+    title       = "TaAs(DOS)"
+    wf_collect  = .TRUE.
+    wfcdir      = "./"
+/
+
+&SYSTEM
+    a                         =  3.44363e+00
+    c                         =  1.17359e+01
+    degauss                   =  1.00000e-02
+    ecutrho                   =  2.25000e+02
+    ecutwfc                   =  2.50000e+01
+    ibrav                     = 6
+    nat                       = 8
+    nbnd                      = 68
+    nspin                     = 2
+    ntyp                      = 2
+    occupations               = "smearing"
+    smearing                  = "gaussian"
+    starting_magnetization(1) =  2.00000e-01
+    starting_magnetization(2) =  0.00000e+00
+/
+
+&ELECTRONS
+    conv_thr         =  1.00000e-06
+    electron_maxstep = 200
+    mixing_beta      =  4.00000e-01
+    startingpot      = "atomic"
+    startingwfc      = "atomic+random"
+/
+
+&DOS
+    degauss =  1.00000e-02
+    deltae  =  1.00000e-02
+    emax    =  5.00000e+01
+    emin    = -5.00000e+01
+    fildos  = "espresso.dos"
+    ngauss  = 0
+    outdir  = "./"
+    prefix  = "espresso"
+/
+
+&PROJWFC
+    degauss =  1.00000e-02
+    deltae  =  1.00000e-02
+    emax    =  5.00000e+01
+    emin    = -5.00000e+01
+    filpdos = "espresso"
+    ngauss  = 0
+    outdir  = "./"
+    prefix  = "espresso"
+/
+
+K_POINTS {automatic}
+ 7  7  2  0 0 0
+
+ATOMIC_SPECIES
+Ta    180.94790  Ta.pbe-nsp-van.UPF
+As     74.92160  As.pbe-n-rrkjus_psl.1.0.0.UPF
+
+ATOMIC_POSITIONS {angstrom}
+Ta      0.000000   0.000000   8.801529
+Ta      0.000000   1.721813  11.735499
+Ta      1.721813   1.721813   2.933587
+Ta      1.721813   0.000000   5.867558
+As      0.000000   0.000000   3.903732
+As      0.000000   1.721813   6.837702
+As      1.721813   1.721813   9.771673
+As      1.721813   0.000000   0.969761
+
+
