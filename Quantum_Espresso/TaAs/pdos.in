@@ -1,0 +1,10 @@
+&PROJWFC
+  prefix = 'TaAs'
+  outdir = './outdir'
+  filpdos = 'pdos.dat'
+  emin = -20.0,
+  emax = 20.0,
+  deltaE = 0.01,
+  degauss = 0.02,
+/
+   

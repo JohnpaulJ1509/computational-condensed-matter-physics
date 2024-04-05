@@ -1,0 +1,69 @@
+ Warning: Only a single CPU will be used!
+
+     Program TDDFPT_PP v.6.7MaX starts on 18Nov2023 at 22:52:28 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     1 processors
+
+     MPI processes distributed on     1 nodes
+
+     Reading  10000 Lanczos steps for direction 1
+      10000 steps will be considered
+
+
+     Reading  10000 Lanczos steps for direction 2
+      10000 steps will be considered
+
+
+     Reading  10000 Lanczos steps for direction 3
+      10000 steps will be considered
+
+
+     Polarization direction:1
+     Lanczos coefficients:
+     Average =    22.13692595
+     Average oscillation amplitude =     0.02886207
+
+     Polarization direction:2
+     Lanczos coefficients:
+     Average =    22.13692787
+     Average oscillation amplitude =     0.03429144
+
+     Polarization direction:3
+     Lanczos coefficients:
+     Average =    22.13765910
+     Average oscillation amplitude =     0.03310858
+
+     Data ready, starting to calculate observables...
+
+     Broadening =      0.05000000 Ry
+
+     Output file name: TaAs.plot_chi.dat   
+
+     Output file name for the oscillator strength S  TaAs.plot_S.dat     
+
+     chi_i_j: dipole polarizability tensor  in units of e^2*a_0^2/energy
+
+     S: oscillator strength in units of 1/energy
+
+     S(\hbar \omega) = 2m/( 3 \pi e^2 \hbar)  \omega sum_j chi_j_j
+
+     S(\hbar \omega) satisfies the f-sum rule:  \int_0^\infty dE S(E) = N_el 
+
+     Functions are reported in \hbar.\omega  Energy unit is (eV)
+
+     TDDFPT_PP    :   3m13.40s CPU   3m29.56s WALL
+
+
+   This run was terminated on:  22:55:57  18Nov2023            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

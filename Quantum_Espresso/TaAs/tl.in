@@ -1,0 +1,9 @@
+&LR_INPUT
+  prefix = 'TaAs'
+  outdir = './outdir'
+/
+
+&LR_CONTROL
+  itermax = 10000
+  ipol = 4
+/

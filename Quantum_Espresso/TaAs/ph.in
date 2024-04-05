@@ -1,0 +1,10 @@
+&INPUTPH
+  outdir = './outdir'
+  prefix = 'TaAs'
+  tr2_ph = 1.0d-14
+  epsil = .true.
+  trans = .true.
+  asr = .true.
+  ldisp = .false.
+  fildyn = 'dmat.taas'
+/

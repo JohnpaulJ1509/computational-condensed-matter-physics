@@ -1,0 +1,14 @@
+&INPUTPP
+   outdir = "./outdir"
+   prefix = "TaAs"
+   calculation = "eps"
+/
+
+&ENERGY_GRID
+   smeartype ="gauss"
+   intersmer = 0.2
+   wmin =0.0
+   wmax = 30.0
+   nw =500
+/
+
